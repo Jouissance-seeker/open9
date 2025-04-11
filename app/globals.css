@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-citron: #E0FF27;
+  --text-xsp: 13px;
+  --text-smp: 15px;
+}
+
+@utility container {
+  @apply px-4 mx-auto max-w-screen-xl;
+}
+
+body {
+  @apply bg-black text-white;
+}
